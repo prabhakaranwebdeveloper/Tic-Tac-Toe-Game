@@ -350,3 +350,27 @@ ol {
   }
 }
 
+/* Responsive WebDesign */
+
+@media screen and (max-width: 500px) {
+  #game-container {
+    width: 100%;
+    height: auto;
+  }
+  #players {
+    display: block;
+  }
+  .player-symbol {
+    margin-left: 70px;
+  }
+  #players li {
+    width: 100%;
+  }
+  #game-board ol {
+    flex-wrap: nowrap;
+  }
+  #game-board button {
+    width: 6rem;
+    height: 6rem;
+  }
+}
